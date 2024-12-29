@@ -1,4 +1,9 @@
 # deep-learning-challenge
+What is deep Learning?
+Deep learning is a specialized branch of machine learning that employs artificial neural networks with multiple layers—hence the term "deep"—to model and understand complex patterns in data. These neural networks are designed to mimic the human brain's interconnected neuron structure, enabling systems to learn and make decisions from vast amounts of data. 
+via IBM
+
+
 
 Preprocess the Data (30 points)
 Create a dataframe containing the charity_data.csv data , and identify the target and feature variables in the dataset (2 points)
