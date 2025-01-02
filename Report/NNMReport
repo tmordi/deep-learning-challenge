@@ -4,12 +4,15 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 Data Preprocessing
 
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
+What variable(s) are the target(s) for your model? The Target Variables are those incorporated with "is_successful" which are the binary 1 or 0
+What variable(s) are the features for your model? the relevant variables for this consideration are APPLICATION_TYPE,AFFILIATION,CLASSIFICATION,USE_CASE,ORGANIZATION,STATUS,INCOME_AMT,SPECIAL_CONSIDERATIONS,ASK_AMT 
+What variable(s) should be removed from the input data because they are neither targets nor features? 'EIN' and 'NAME'
+
+
 Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
+How many neurons, layers, and activation functions did you select for your neural network model, and why? layer1 = 250 hidden layers, activation = relu, layer2 = 100 hidden layers, activation = relu,layer3 = 200 hidden layers, activation = relu, layer4 = 100 hidden layers, activation = relu and the outer layer activation = sigmoid. why? the use of relu and sigmoid are better for representation of the size of this model 
+Were you able to achieve the target model performance? no i was capped at 73.14 even with the addition of more layers 
+What steps did you take in your attempts to increase model performance? i increased the number of neurons in each layer, added a third and fourth hidden layer to the model 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+upon running and optimizing this model with the instrutions from step 3 to achieve an accuracy of 75%, this model falls short to meet its target accuracy due to how ambigious the dataset is, one could agree that this dataset might have potential limitiations with out reviewing other dataset or outliers  
